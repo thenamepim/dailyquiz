@@ -1,0 +1,22 @@
+body{
+    font-family: arial;
+    font-size: 25px;
+    line-height: 1.6em;
+    background: #ffffff;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .container{
+        width: 90%;
+    }
+}

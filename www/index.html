@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Daily Quiz | Answer 10 Questions Every Day</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+  </head>
+
+  <body> 
+    <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
+          <text x="10" y="60"
+              style="font-size: 72px;
+              fill: #ec0f0f;">
+                     
+           Daily Quiz
+          </text>
+        </svg>
+        
+      <main>
+          <form class="questionForm" style="border:2px solid rgba(233, 177, 22, 0.308)" id="q1" data-question="1">
+              
+              <h2 class="question1"></h2>
+              <ul>
+                <li><input type="radio" name="q1" id="q1A" value="A"><label for="answerA"></label></li>
+                <li><input type="radio" name="q1" id="q1B" value="B"><label for="answerB"></label></li>
+                <li><input type="radio" name="q1" id="q1C" value="C"><label for="answerC"></label></li>
+                <li><input type="radio" name="q1" id="q1D" value="D"><label for="answerD"></label></li>
+              </ul>
+        
+              <div>        
+                <button id="submit">Submit</button>
+              </div>
+              </form>
+
+              <form class="questionForm" style="border:2px solid rgba(233, 177, 22, 0.308)" id="q2" data-question="2">
+                  <h2 class="question2"></h2>
+                  <ul>
+                    <li><input type="radio" name="q2" id="q2A" value="A"><label for="answerA"></label></li>
+                    <li><input type="radio" name="q2" id="q2B" value="B"><label for="answerB"></label></li>
+                    <li><input type="radio" name="q2" id="q2C" value="C"><label for="answerC"></label></li>
+                    <li><input type="radio" name="q2" id="q2D" value="D"><label for="answerD"></label></li>
+                  </ul>
+            
+                  <div>        
+                    <button id="submit">Submit</button>
+                  </div>
+                  </form>
+
+                  <div id="results"></div>
+      </main>
+
+    </div><!-- container --> 
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>
